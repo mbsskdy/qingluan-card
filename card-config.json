@@ -1,0 +1,82 @@
+{
+  "title": "御风青鸾",
+  "subtitle": "流光踏影",
+  "technique": "踏云式",
+  "tagline": "一叶御风 · 光珠随行",
+  "edition": "001 / 001",
+  "collection": "立体光栅典藏",
+  "description": "御风而行，踏光为影。青碧的灵息与琥珀的流光在她身侧交织，星芒自纸面之外涌来。",
+  "sourceMode": "relief",
+  "appearance": {
+    "background": "#0a171c",
+    "finish": "pearl"
+  },
+  "assets": {
+    "subject": "./assets/subject.png",
+    "background": "./assets/background.png",
+    "text": "./assets/text.png",
+    "lineart": "./assets/lineart.png",
+    "water": "./assets/water.png",
+    "effects": "./assets/effects.png",
+    "model": "./assets/card.glb",
+    "envVideo": "./assets/env.mp4",
+    "height": "./assets/subject-height.png"
+  },
+  "parameters": {
+    "subjectScale": 1.0,
+    "subjectDepth": 0.4,
+    "backgroundDepth": -0.26,
+    "effectsScale": 1,
+    "effectsDepth": 0.2,
+    "foil": 0.72,
+    "subjectRise": 0.45
+  },
+  "layers": {
+    "bottom": {
+      "width": 9.83,
+      "height": 6.55,
+      "depth": -0.5,
+      "offset": [
+        0,
+        0
+      ]
+    },
+    "water": {
+      "width": 9.83,
+      "height": 6.55,
+      "depth": -0.12,
+      "offset": [
+        0,
+        0
+      ]
+    },
+    "subject": {
+      "width": 9.83,
+      "height": 6.55,
+      "depth": 0.0,
+      "offset": [
+        0,
+        0
+      ]
+    },
+    "effects": {
+      "width": 9.83,
+      "height": 6.55,
+      "depth": 0.2,
+      "offset": [
+        0,
+        0
+      ]
+    },
+    "text": {
+      "depth": 0.4
+    }
+  },
+  "safeArea": {
+    "scale": 1,
+    "offset": [
+      0,
+      0
+    ]
+  }
+}
