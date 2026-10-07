@@ -39,19 +39,21 @@ style.css            样式
 app.bundle.js        查看器（three.js 内联，单文件）
 card-config.json     卡面配置：文案、配色、各层深度
 assets/
-  subject.png        主体（带透明通道）
+  subject.webp        主体（带透明通道）
   subject-height.png 主体厚度图
-  background.png     背景
-  lineart.png        线稿
-  water.png          水面
-  effects.png        特效
-  text.png           文字
+  background.webp     背景
+  lineart.webp        线稿
+  water.webp          水面
+  effects.webp        特效
+  text.webp           文字
   card.glb           卡片几何
   env.mp4            环境循环动画（107 帧 / 24fps / 无缝）
 preview.gif          动态预览
 ```
 
 想改文案、配色或各层深度，改 `card-config.json` 即可，不用重新打包。
+
+图层以 WebP 分发（线稿/文字为无损），体积比 PNG 小约 82%；PNG 主档保留在交付目录的 `layers/` 里，不随仓库分发。
 
 ## 版权
 

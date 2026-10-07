@@ -12,12 +12,12 @@
     "finish": "pearl"
   },
   "assets": {
-    "subject": "./assets/subject.png",
-    "background": "./assets/background.png",
-    "text": "./assets/text.png",
-    "lineart": "./assets/lineart.png",
-    "water": "./assets/water.png",
-    "effects": "./assets/effects.png",
+    "subject": "./assets/subject.webp",
+    "background": "./assets/background.webp",
+    "text": "./assets/text.webp",
+    "lineart": "./assets/lineart.webp",
+    "water": "./assets/water.webp",
+    "effects": "./assets/effects.webp",
     "model": "./assets/card.glb",
     "envVideo": "./assets/env.mp4",
     "height": "./assets/subject-height.png"
